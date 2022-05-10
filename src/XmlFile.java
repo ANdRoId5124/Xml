@@ -35,7 +35,7 @@ public class XmlFile {
             System.out.println(list);
         }
         catch (Exception e){
-            System.out.println("e");
+            e.printStackTrace();
         }
 
             BufferedWriter file = new BufferedWriter(new FileWriter("D:\\XmlFiles\\William_Shakespeare" +
